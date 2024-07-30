@@ -1,0 +1,630 @@
+
+/* Extra large devices (large laptops and desktops, 1200px) */
+@media only screen and (max-width: 1200px) {
+    .navbar {
+        padding: 40px 0 36px 0;
+    }
+    .navbar-logo {
+        width: 130px; /* Adjust as needed */
+        height: 35px;
+        margin-right: 15%;
+    }
+    .navbar-left a {
+        margin-right: 40px;
+    }
+    .navbar-right .icon {
+        margin-right: 40px;
+    }
+    .navbar-right .bars {
+        margin-left: 40px;
+        margin-right: 0;
+    }
+    .user::after{
+        margin-left:40px;
+    }
+    /* sectionTwo responsive css start from  here  */
+
+    .sectionTwo h2{
+    font-size: 50px;
+    padding-top: 3%;
+    }
+    .stats h5{
+        font-size: 26px;
+    }
+    .stats p{
+        font-size: 17px;
+    }
+    .stat-left{
+        margin-right: 36px;
+    }
+    .stat-right{
+        margin-left: 36px;
+    }
+    .stat-right::before{
+        margin-left: -36px;
+    }
+    form{
+        padding-top: 25px;
+        padding-bottom: 6%;
+    }
+    form input{
+        height: 50px;
+        width: 35%;
+    }
+    input {
+        padding-left: 20px;
+    }
+    form button{
+        margin-left: -50px;
+        padding: 8px 12px;
+    }
+    form button img{
+        width: 16px;
+    }
+    /* sectionThree css start from  here  */
+    .selling-plants{
+        grid-template-columns: 20% 75%;
+    }
+    .see-more h4{
+        font-size: 26px;
+    }
+    .see-more p{
+        font-size: 17px;
+    }
+    .see-more button{
+        font-size: 17px;
+        width: 100%;
+        height: 50px;
+        margin-top: 15px;
+    }
+    .see img{
+        width:22px;
+    }
+    .plant img{
+        height: 80%;
+    }
+    .plant h6{
+        font-size: 17px;
+    }
+    .plant p{
+        font-size: 17px;
+    }
+    /* sectionFour responsive css start from here  */
+    .sectionFour{
+        margin-bottom: 140px;
+    }
+    .sectionFour h4{
+        font-size: 26px;
+    }
+    .sectionFour p{
+        font-size: 17px;
+    }
+    .service img{
+        width: 35px;
+        height: 35px;
+    }
+    .service .bg{
+        width: 75px;
+        height: 75px;
+    }
+    .service h6{
+        font-size: 17px;
+    }
+    /* sectionFive css start from  here  */
+    .text h4{
+        font-size: 26px;
+    }
+    .text p{
+        font-size: 17px;
+    }
+    .type h5{
+        font-size: 17px;
+    }
+    .plant-types p{
+        font-size: 17px;
+    }
+    .plant-types button{
+        width: 140px;
+        height: 50px;
+        font-size: 17px;
+    }
+    .explore img{
+        width: 22px;
+    }
+    /* sectionSix responsive css start from  here  */
+    .top-left h4{
+        font-size: 26px;
+    }
+    .top-right .indicator{
+        width: 30px;
+    }
+    .slide p{
+        font-size: 17px;
+    }
+    .next,.prev{
+        top: 31%;
+    }
+    svg:hover{
+        width: 50px;
+        height: 60px;
+    }
+    .bottm-rev .img img{
+        width: 130px;
+        height: 175px;
+        
+    }
+    .cus-name,.cus-rev{
+        margin-top: 11%;
+    }
+    .cus-name h4,.cus-rev h4{
+    font-size: 17px;
+    }
+    .cus-name p{
+    font-size: 11px;
+    }
+    .cus-rev{
+    margin-left: 30%;
+    }
+    /* footer responsive css start from here */
+    .footer{
+    grid-template-columns: 45% 15% 15% 15% ;
+    justify-content: space-between;
+    }
+    .greenm p{
+    font-size: 17px;
+    }
+    .info ul{
+        padding-left: 0;
+    }
+    .info ul li a{
+        font-size: 17px;
+    }
+    .info ul li a h6{
+        font-size: 17px;
+    }
+
+}
+
+/* Medium devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width:992px) {
+    .navbar {
+        padding: 35px 0 30px 0;
+    }
+    .navbar-logo {
+        width: 100px; /* Adjust as needed */
+        height: 25px;
+        margin-right: 10%;
+    }
+    .navbar-left a {
+        margin-right: 25px;
+    }
+    .navbar-right .icon {
+        margin-right: 30px;
+    }
+    .navbar-right .bars {
+        margin-left: 30px;
+        margin-right: 0;
+    }
+    .user::after{
+        margin-left:30px;
+    }
+     /* sectionTwo responsive css start from  here  */
+
+    .sectionTwo h2{
+        font-size: 40px;
+        padding-top: 3%;
+    }
+    .stats h5{
+            font-size: 20px;
+    }
+    .stats p{
+        font-size: 15px;
+    }
+    .stat-left{
+        margin-right: 30px;
+    }
+    .stat-right{
+        margin-left: 30px;
+    }
+    .stat-right::before{
+        margin-left: -30px;
+        height: 50px;
+    }
+    form{
+        padding-top: 20px;
+        padding-bottom: 6%;
+    }
+    form input{
+        height: 40px;
+        width: 38%;
+    }
+    input {
+        padding-left: 8px;
+        font-size: 15px;
+    }
+    form button{
+        margin-left: -42px;
+        padding: 5px 9px;
+    }
+    form button img{
+        width: 15px;
+    }
+    .slide span{
+        display: none;
+    }
+    .bottm-rev{
+        display: grid;
+        grid-template-columns: 30% 30% 40%;
+    }
+    .bottm-rev .img img{
+        max-width: 110px;
+        max-height: 155px;
+        
+    }
+    .cus-rev{
+        margin-left: 20%;
+        justify-self: right;
+    }
+    .cus-rev img{
+        margin-right:15px ;
+    }
+    .cus-name{
+        margin-top: 35%;
+    }
+    .cus-rev{
+        margin-top: 28%;
+    }
+    .footer{
+        grid-template-columns: 38% 14% 14% 20% ;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        padding: 30px 0 25px 0;
+    }
+    .navbar-logo {
+        width: 80px; /* Adjust as needed */
+        height: 20px;
+        margin-right: 10%;
+    }
+    .navMenu{
+        position:fixed;
+        left: -100%;
+        width: 100%;
+        top: 80px;
+        gap: 0;
+        text-align: center;
+        transition: .5s;
+        background-color: aqua;
+    }
+    .navMenu.active{
+        left: 0;
+    }
+    .navbar-left a {
+        display: block;
+    }
+    
+    .collapse:not(.show) {
+        display:block;
+      }
+    .navbar-right .icon {
+        margin-right: 15px;
+    }
+    .navbar-right .bars {
+        margin-left: 15px;
+    }
+    .user::after{
+        margin-left:15px;
+        height: 18px;
+        margin-top: 4px;
+    }
+    .icon img{
+        width: 20px;
+        height: auto;
+    }
+    .user img{
+        width: 16px;
+        height: auto;
+    }
+    /*section two start here*/
+    .sectionTwo h2{
+        font-size: 30px;
+        padding-top: 2%;
+    }
+    .stats h5{
+            font-size: 15px;
+    }
+    .stats p{
+        font-size: 11px;
+        margin-bottom: 0;
+    }
+    .stat-left{
+        margin-right: 16px;
+    }
+    .stat-right{
+        margin-left: 16px;
+    }
+    .stat-right::before{
+        margin-left: -16px;
+        height: 40px;
+    }
+    form{
+        padding-top: 8px;
+        padding-bottom: 6%;
+    }
+    form input{
+        height: 30px;
+        width:40%;
+        font-size: 10px;
+    }
+    form button{
+        margin-bottom: -4px;
+        padding: 0px 7px 3.5px 7px;
+        margin-left: -34px;
+    }
+    form button img{
+        width: 13px;
+    }
+    /*section three start here*/
+    .see-more h4{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .see-more p{
+        font-size: 14px;
+    }
+    .see-more button{
+        font-size: 14px;
+        margin-top:10px;
+    }
+    .see img{
+        width:20px;
+    }
+    .plant h6{
+        font-size: 14px;
+    }
+    .plant p{
+        font-size: 14px;
+    }
+    /*section four start from here*/
+    .sectionFour{
+        margin-bottom: 100px;
+    }
+    .sectionFour h4{
+        font-size: 20px;
+    }
+    .sectionFour p{
+        font-size: 14px;
+    }
+    .service img{
+        width: 30px;
+        height: 30px;
+    }
+    .service .bg{
+        width: 65px;
+        height: 65px;
+    }
+    .service h6{
+        font-size: 16px;
+    }
+    /*section five css start from here*/
+    .text h4{
+        font-size: 20px;
+    }
+    .text p{
+        font-size: 14px;
+    }
+    .type h5{
+        font-size: 15px;
+    }
+    .plant-types p{
+        font-size: 14px;
+    }
+    .plant-types button{
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .explore img{
+        width: 20px;
+    }
+    /*sectin six start from here*/
+    .top-left h4{
+        font-size: 20px;
+    }
+    .slides{
+       max-height:350px ;
+    }
+    .slide p{
+        font-size: 14px;
+    }
+    .bottm-rev{
+        display: grid;
+        grid-template-columns: 34% 30% 36%;
+    }
+    .bottm-rev .img img{
+        width: 90px;
+        height: 125px;
+        
+    }
+    .cus-name h4,.cus-rev h4{
+        font-size: 15px;
+    }
+    .cus-name p{
+        font-size: 11px;
+    }
+    /* footer start from here*/
+    .footer{
+        display: flex ;
+        flex-wrap:wrap ;
+    }
+    .greenm p{
+        font-size: 14px;
+    }
+    .greenm{
+        display: block;
+        width: 100%;
+    }
+    .social{
+        margin-bottom: 40px;
+    }
+    .info ul li{
+        margin-bottom: 15px;
+    }
+    .info ul li a{
+        font-size: 16px;
+    }
+
+
+
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:550px){
+    .container{
+        padding: 0 5%;
+    }
+    .navbar {
+        padding: 20px 0 20px 0;
+    }
+    .navbar-logo {
+        width: 65px; /* Adjust as needed */
+        height: 18px;
+        margin-right: 10%;
+    }
+    .navbar-right .icon {
+        margin-right: 10px;
+    }
+    .navbar-right .bars {
+        margin-left: 10px;
+    }
+    .user::after{
+        margin-left:10px;
+        height: 16px;
+        text-align: center;
+        margin-top: 4px;
+    }
+    .icon img{
+        width: 18px;
+        height: auto;
+    }
+    .user img{
+        width: 15px;
+        height: auto;
+    }
+    .navbar-toggler-icon{
+        width: 21px;
+    }
+    .navMenu{
+        top: 60px;
+    }
+    #ham-menu{
+        padding: 5px 0;
+    }
+     /*section two start here*/
+    .sectionTwo h2{
+        font-size: 20px;
+        padding-top: 2%;
+    }
+    .stats h5{
+        font-size: 13px;
+        margin-bottom: 3px;
+    }
+    .stats p{
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+    .stat-left{
+        margin-right: 8px;
+    }
+    .stat-right{
+        margin-left: 8px;
+    }
+    .stat-right::before{
+        margin-left: -8px;
+        height: 32px;
+    }
+    form{
+        padding-top: 5px;
+        padding-bottom: 6%;
+        display: flex;
+    }
+    form input{
+        height: 18px;
+        width:49%;
+        font-size: 8.5px;
+    }
+    form button{
+        margin-top:1px;
+        padding: 0px 4px;
+        margin-left: -20px;
+        height: 16px;
+        border-radius: 5px;
+    }
+    form button img{
+        width: 9px;
+        height: 9px;
+        margin-top: -10px;
+    }
+    /*section three start here*/
+    .sectionThree{
+        margin-top: 60px;
+    }
+    .selling-plants{
+        display:grid;
+        grid-template-columns: 100%;
+        justify-content: space-between;
+    }
+    .best-plants{
+        display: grid;
+        grid-template-columns: 100%;
+        margin: 0 auto;
+    }
+    .plant{
+        margin: 0 auto;
+        max-width: 60%;
+        max-height:480px ;
+        margin-bottom: 20px;
+    }
+    .see-more{
+        margin-bottom: 20px;
+    }
+    .see-more button{
+        font-size: 14px;
+        margin-top:10px;
+        height: 32px;
+    }
+    /* section four start from here */
+    .sectionFour{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .services{
+        display:grid;
+        grid-template-columns:100%;
+        margin-top: 55px;
+    }
+    .service{
+        margin-bottom: 20px;
+    }
+    /* section five start here */
+    .text{
+        margin-bottom: 80px;
+    }
+    .type{
+        margin-top: -35px;
+    }
+    .type:nth-child(2){
+        margin-top:35px;
+    }
+    /* section six start here */
+    
+
+
+
+}
+

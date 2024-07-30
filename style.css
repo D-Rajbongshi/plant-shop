@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bs-body-font-family:'poppins',sans-serif;
+}
+.container{
+    background-color: #ffffff;
+    padding:0 6.7%;
+    margin: 0;
+    max-width: 100%;
+}
+
+/* nav css strart from here  */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px 0 40px 0;
+    background-color: #ffffff;
+}
+
+.navbar-logo {
+    width: 152px; /* Adjust as needed */
+    height: 39px;
+    margin-right: 25%;
+}
+.navbar-logo:hover {
+    cursor: pointer;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left a {
+    color: #8f8f8f;
+    text-decoration: none;
+    margin-right: 48px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.navbar-left a:hover {
+    color: black;
+    transition: .5s;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right .icon {
+    margin-right: 48px;
+}
+.navbar-right .icon:hover{
+    cursor: pointer;
+}
+.navbar-right .bars {
+    margin-left: 48px;
+    margin-right: 0;
+}
+.user::after{
+    content: '';
+    width: 1px;
+    height: 24px;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    margin-left:48px;
+}
+.icon img{
+    width: 24px;
+    height: auto;
+}
+.user img{
+    width: 19px;
+    height: auto;
+}
+
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler-icon{
+    width: 25px;
+    height: 20px;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    border: none;
+}
+.hamburg{
+    transform: rotate(-90deg);
+    transition: .5s;
+}
+
+/* nav css end  here  */
+/* sectionTwo css start from  here  */
+.sectionTwo{
+    background-image:url(image/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    border-radius: 20px;
+    
+    
+}
+.sectionTwo h2{
+    font-size: 64px;
+    font-weight: 800;
+    margin-left: 4%;
+    padding-top: 4%;
+}
+.stats{
+    display: flex;
+    margin-left: 4%;
+}
+.stats h5{
+    font-size: 32px;
+}
+.stats p{
+    font-size: 18px;
+}
+.stat-right::before{
+    content: '';
+    width: 1px;
+    height: 64px;
+    background-color: black;
+    position: absolute;
+    margin-left: -48px;
+}
+.stat-left{
+    margin-right: 48px;
+}
+.stat-right{
+    margin-left: 48px;
+}
+form{
+    margin-left: 4%;
+    padding-top: 48px;
+    padding-bottom:14%;
+}
+form input{
+    border: none;
+    height: 70px;
+    width: 30%;
+    border-radius: 14px;
+}
+input {
+    padding-left: 30px;
+}
+form button{
+    background-color:#C1DCDC ;
+    border: none;
+    margin-left: -60px;
+    border-radius: 10px;
+    padding: 10px 12px;
+}
+form button img{
+    width: 20px;
+}
+/* sectionTwo css end  here  */
+/* sectionThree css start from  here  */
+.sectionThree{
+    margin-top:100px ;
+}
+.selling-plants{
+    display:grid;
+    grid-template-columns: 15% 80%;
+    justify-content: space-between;
+}
+.see-more h4{
+    font-size: 32px;
+    font-weight: bold;
+}
+.see-more p{
+    font-size: 18px;
+    font-weight:500;
+    color: #8f8f8f;
+}
+.see-more button{
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    width: 170px;
+    height: 55px;
+    background-color: #C1DCDC;
+    margin-top: 20px;
+}
+.see img{
+    width:26px;
+}
+.best-plants{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+}
+.plant{
+    max-width: 400px;
+    max-height:520px ;
+}
+.plant img{
+    width: 100%;
+    height: 85%;
+}
+.plant h6{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.plant p{
+    font-size: 18px;
+    color: #8f8f8f;
+}
+.plant p span{
+    text-decoration-line: line-through;
+    text-decoration-style:double ;
+}
+
+/* sectionThree css end  here  */
+/* sectionFour css start from here  */
+.sectionFour{
+    text-align: center;
+    margin-top: 115px;
+    margin-bottom: 180px;
+}
+.sectionFour h4{
+    font-size: 32px;
+    font-weight: bold;
+}
+.sectionFour p{
+    font-size: 18px;
+    color: #8f8f8f;
+}
+.services{
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.service img{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top:25%;
+}
+.service .bg{
+    width: 100px;
+    height: 100px;
+    background-color: #C1DCDC;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.service h6{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 26px;
+}
+
+/* sectionFour css end  here  */
+/* sectionFive css start from  here  */
+.sectionFive{
+    text-align: center;
+    padding: 0 6.7%;
+    background-color: #C1DCDC;
+}
+.text{
+    background-color: #ffffff;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 110px;
+    
+}
+.text h4{
+    font-size: 32px;
+    font-weight: bold;
+}
+.text p{
+    font-size: 18px;
+    color: #8f8f8f;
+}
+.types{
+    display: grid;
+    grid-template-columns: 28% 28% 28%;
+    justify-content: space-between;
+}
+.type{
+    margin-top: -55px;
+}
+.type:nth-child(2){
+    margin-top:55px;
+}
+.type img{
+    width: 100%;
+    border-radius: 15px;
+}
+.type h5{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.plant-types p{
+    color: #707D7D;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.plant-types button{
+    background-color: #ffffff;
+    width: 155px;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.explore img{
+    width: 28px;
+}
+
+/* sectionFive css end  here  */
+/* sectionSix css start from  here  */
+.sectionSix{
+    margin-top: 100px;
+    background-color: #ffffff;
+    padding: 0 6.7%;
+}
+.slider-top{
+    display: flex;
+    justify-content: space-between;
+}
+.top-left h4{
+    font-weight: bold;
+    font-size: 32px;
+}
+.top-right{
+    display: flex;
+}
+.top-right .indi{
+    width: 12px;
+    height: 6px;
+    margin-right: 6px;
+    border-radius: 5px;
+    background-color: #C1DCDC;
+}
+.top-right .indicator{
+    width: 50px;
+    height: 6px;
+    margin-right: 6px;
+    border-radius: 5px;
+    background-color: #C1DCDC;
+}
+.next,.prev{
+    position: absolute;
+    top: 38%;
+    background: transparent;
+    width: 50px;
+    height: 70px;
+    border: none;
+}
+svg:hover{
+    width: 55px;
+    height: 65px;
+}
+.slides .prev{
+    left: 0;
+}
+.slides .next{
+    right: 0;
+}
+.slides{
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+.slide{
+    width: 76%;
+    max-height: 420px;
+    background-color: #C1DCDC;
+    position: absolute;
+    transition: 2s;
+    padding: 4% 4% 0 4%;
+    border-radius: 10px;
+}
+.bottm-rev{
+    display: inline-flex;
+    vertical-align: baseline;
+    width: 100%;
+}
+.bottm-rev img{
+    width: 150px;
+    height: 200px;
+    
+}
+.cus-rev img{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+.cus-name,.cus-rev{
+    margin-top: 9.5%;
+}
+.cus-name h4,.cus-rev h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+.cus-name p{
+    font-size: 12px;
+    color: #707D7D;
+}
+.cus-rev{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 52%;
+}
+
+/* sectionSix css end  here  */
+/* footer css start from here */
+.footer{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 55% 15% 15% 15% ;
+    background-color: #C1DCDC;
+    padding: 60px 6.7%;
+}
+.greenm img{
+    width: 110px;
+}
+.greenm p{
+    font-size: 18px;
+    color: #707D7D;
+    margin: 30px 0;
+}
+.social{
+    margin-bottom: 100px;
+    margin-top: 25px;
+}
+.social img{
+    width: 25px;
+    height: 22px;
+}
+.social a{
+    width: 25px;
+    height: 24px;
+    border: 1px solid #707D7D;
+    border-radius: 50%;
+    padding: 13px 12px;
+    margin-right: 26px;
+}
+.social .twt{
+    height: 20px;
+}
+.info ul{
+    list-style: none;
+}
+.info ul li a{
+    text-decoration: none;
+    color: #707D7D;
+    font-size: 18px;
+}
+.info ul li a h6{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.info ul li{
+    margin-bottom: 30px;
+}
+.info ul li a:hover{
+    color: black;
+    font-weight: bold;
+    transition: .5s;
+}
+
+
+
+
+/* footer css end here */
